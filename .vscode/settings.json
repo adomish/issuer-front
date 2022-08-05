@@ -7,5 +7,12 @@
     "amplify/#current-cloud-backend": true,
     "amplify/backend/amplify-meta.json": true,
     "amplify/backend/awscloudformation": true
-  }
+  },
+
+  "editor.formatOnSave": true, // <-- prettierで整形
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true // <-- eslintでリント
+  },
+  // デフォルトフォーマッタをprettierに
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
